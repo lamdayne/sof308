@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container">
+            <a href="#" class="nav-brand">
+                <img src="https://img.icons8.com/?size=96&id=3JRYpsD5QcBc&format=png" alt="" width="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto ms-5">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-solid fa-list"></i>
+                            Bài viết
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-solid fa-film"></i>
+                            Video
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-solid fa-circle-info"></i>
+                            Giới thiệu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="fa-solid fa-calendar"></i>
+                            Sự kiện
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-user"></i>
+                            Tài khoản
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng nhập</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng ký</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Quên mật khẩu</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Tiếng Việt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="row mt-3">
+            <div class="col-sm-4">
+                <h2 class="text-info mt-3">Category</h2>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center active">
+                        <a href="#" class="nav-link">Exercise Mode</a>
+                        <span class="badge bg-primary">18</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="#" class="nav-link">Nutrition Mode</a>
+                        <span class="badge bg-primary">10</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="#" class="nav-link">Life handbook</a>
+                        <span class="badge bg-primary">06</span>
+                    </li>
+                </ul>
+                <div class="card mt-3">
+                    <h5 class="card-header text-info">
+                        Bài viết nổi bật
+                    </h5>
+                    <div class="card-body p-2 mb-2">
+                        <a href="#" class="nav-link d-flex">
+                            <img src="./images/spinach_300x300.jpg" alt="Biết ơn" class="img-fluid rounded-circle me-2"
+                                width="80" height="80">
+                            <div class="d-flex flex-column">
+                                <h6 class="">Lợi ích của việc ăn rau</h6>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, beatae et alias aut nam facilis..</ơ>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body p-2 mb-2">
+                        <a href="#" class="nav-link d-flex">
+                            <img src="./images/orange_300x300.jpg" alt="Biết ơn" class="img-fluid rounded-circle me-2"
+                                width="80" height="80">
+                            <div class="d-flex flex-column">
+                                <h6 class="">9 tác dụng của cam</h6>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, beatae et alias aut nam facilis..</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body p-2 mb-2">
+                        <a href="#" class="nav-link d-flex">
+                            <img src="./images/sesameoil_300x300.jpg" alt="Biết ơn" class="img-fluid rounded-circle me-2"
+                                width="80" height="80">
+                            <div class="d-flex flex-column">
+                                <h6 class="">10 công dụng từ dầu</h6>
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, beatae et alias aut nam facilis..</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 mt-3">
+                <h2 class="text-info">Blog</h2>
+                <div class="container">
+                    <div class="row mb-3">
+                        <div class="col-sm-6 mb-3">
+                            <div class="card">
+                                <h5 class="card-header">
+                                    Phương pháp tập luyện Piltaes giúp phục hồi chấn thương cột sống
+                                    <i class="fa-solid fa-message"></i>
+                                    30
+                                </h5>
+                                <div class="card-body">
+                                    <img src="./images/tap-piltes.jpg" class="card-img-top rounded-0" alt="...">
+                                    <p class="card-text">
+                                        With supporting text below as a natural lead-in to additional content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <h5 class="card-header">
+                                    Phương pháp tập luyện Piltaes giúp phục hồi chấn thương cột sống
+                                    <i class="fa-solid fa-message"></i>
+                                    30
+                                </h5>
+                                <div class="card-body">
+                                    <img src="./images/tap-pilates1.jpg" class="card-img-top rounded-0" alt="...">
+                                    <p class="card-text">
+                                        With supporting text below as a natural lead-in to additional content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <h5 class="card-header">
+                                    Phương pháp tập luyện Piltaes giúp phục hồi chấn thương cột sống
+                                    <i class="fa-solid fa-message"></i>
+                                    30
+                                </h5>
+                                <div class="card-body">
+                                    <img src="./images/tim-mach.jpg" class="card-img-top rounded-0" alt="...">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, voluptatum ab eius
+                                        provident inventore ea?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <h5 class="card-header">
+                                    Phương pháp tập luyện Piltaes giúp phục hồi chấn thương cột sống
+                                    <i class="fa-solid fa-message"></i>
+                                    30
+                                </h5>
+                                <div class="card-body">
+                                    <img src="./images/eat-clean.png" class="card-img-top rounded-0" alt="...">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
+                                        perferendis!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-center text-white mt-3">
+        <div class="text-center p-3">
+            © 2020 Copyright by FPT Polytechnic. This website created by
+            <a class="" href="https://github.com/lamdayne">Nguyen Lam</a>
+        </div>
+    </footer>
+</body>
+
+</html>
